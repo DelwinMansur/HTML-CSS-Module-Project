@@ -1,5 +1,4 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -15,5 +14,174 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
+h2 {
+    text-align: center;
+    color: white;
+    padding: 40px;   
+    margin: 0px;
+}
+
+.new-section {
+    background-color: #f9d6d0;
+    display: flex;
+    justify-content: space-evenly; /* Adjust spacing */
+    align-items: center;            /* Align items vertically */
+}
+
+.new-section h3 {
+    font-style: italic;
+    font-size: 36px;
+    max-width: 350px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.new-section span {
+    color: #FF6347;
+    font-size: 48px;
+    font-family: 'Gerogia', Times, serif;
+    font-weight: bolder;
+}
+
+.new-section button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-section div {
+  display: flex;
+  flex-direction: column; /* Lays items out vertically */
+  align-items: center;    /* Aligns them horizontally to the center */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li {
+    display: inline-block;
+}
+
+nav .nav-links li a {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../img/first-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-learn-more {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.feature-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+}
